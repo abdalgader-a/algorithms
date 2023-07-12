@@ -1,6 +1,5 @@
 """
 Description: Implementation of the Stack using LinkedList
-
 Time complexity:
     insert_first is O(1)
     delete_first is O(1)
