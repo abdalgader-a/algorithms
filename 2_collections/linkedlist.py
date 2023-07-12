@@ -1,5 +1,5 @@
 """
-Description: Implementation of the LinkedList with three methods
+Description:  Implementation of the LinkedList with three methods
         -"get_position" returns the element at a certain position.
         -"insert" function will add an element to a particular.
         -"delete" delete the first element with that particular value.
