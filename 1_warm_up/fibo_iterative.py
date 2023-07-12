@@ -1,5 +1,5 @@
 """
-Description: Create a two Fibonacci functions:
+Description: Implement a two Fibonacci functions:
     fib: write Fibonacci series up to n
     fib2: return Fibonacci series up to n
 Complexity:
