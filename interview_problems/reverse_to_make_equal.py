@@ -28,7 +28,7 @@ import copy
 # Add any helper functions you may need here
 
 
-def are_they_equal(target_array, array_b):
+def are_they_equal(target_array, array_b) -> bool:
     for i in range(len(target_array)):
         if array_b[i] == target_array[i]:  # reduce the iterations the lists has identical entries at the beginning
             continue
