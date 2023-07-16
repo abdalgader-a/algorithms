@@ -19,7 +19,7 @@ Space Complexity: O(1) because it's in-place
 import math
 
 
-def binary_search(mylist, value):
+def binary_search(mylist, value) -> int:
     start = 0
     end = len(mylist) - 1
     while start <= end:
