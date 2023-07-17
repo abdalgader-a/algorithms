@@ -43,7 +43,7 @@ def are_they_equal(target_array, array_b) -> bool:
 
 # These are the tests we use to determine if the solution is correct.
 # You can add your own at the bottom.
-def printString(string):
+def print_string(string):
     print('[\"', string, '\"]', sep='', end='')
 
 
@@ -61,9 +61,9 @@ def check(expected, output):
         print(rightTick, 'Test #', test_case_number, sep='')
     else:
         print(wrongTick, 'Test #', test_case_number, ': Expected ', sep='', end='')
-        printString(expected)
+        print_string(expected)
         print(' Your output: ', end='')
-        printString(output)
+        print_string(output)
         print()
     test_case_number += 1
 
