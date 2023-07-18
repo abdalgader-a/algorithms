@@ -100,12 +100,12 @@ def check(expected, output):
         result = False
     for i in range(min(expected_size, output_size)):
         result &= (output[i] == expected[i])
-    rightTick = '\u2713'
-    wrongTick = '\u2717'
+    right_tick = '\u2713'
+    wrong_tick = '\u2717'
     if result:
-        print(rightTick, 'Test #', test_case_number, sep='')
+        print(right_tick, 'Test #', test_case_number, sep='')
     else:
-        print(wrongTick, 'Test #', test_case_number, ': Expected ', sep='', end='')
+        print(wrong_tick, 'Test #', test_case_number, ': Expected ', sep='', end='')
         print_integer_list(expected)
         print(' Your output: ', end='')
         print_integer_list(output)
