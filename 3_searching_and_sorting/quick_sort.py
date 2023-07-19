@@ -37,4 +37,8 @@ print(quick_sort(ll, first_index, end_index))
 
 ll2 = [5, 2, 4, 6, 1, 1, 3, 6, 7, 3]
 end_index = len(ll2)-1
-print(quick_sort(ll2, 0, len(ll2) - 1))
+print(quick_sort(ll2, 0, end_index))
+
+ll3 = [5]
+end_index = len(ll3)-1
+print(quick_sort(ll3, 0, end_index))
